@@ -288,3 +288,7 @@ if trash_can_throw_in then
 		old_on_step(self, dtime, ...)
 	end
 end
+
+
+local modpath = minetest.get_modpath("trash_can")
+dofile(modpath .. '/magic_trash_can.lua')
